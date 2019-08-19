@@ -9,9 +9,12 @@ Feedstock license: BSD 3-Clause
 
 Summary: Reading and merging of OOMMF .odt and mumax3 .txt files
 
-ubermagtable provides tools for reading and merging of OOMMF .odt
-and mumax3 .txt files. It is part of the Ubermag project
-(https://github.com/ubermag and http://ubermag.github.io).
+`ubermagtable` is a Python package that provides:
+
+    - Conversion of scalar data files (OOMMF `.odt` and mumax3 `.txt`) to `pandas.DataFrames`
+    - Merging of multiple OOMMF `.odt` files into a single `pandas.DataFrame`
+
+It is available on all major operating systems (Windows, MacOS, Linux) and requires Python 3.6 or higher.
 
 
 Current build status

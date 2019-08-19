@@ -1,6 +1,6 @@
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 {% set name = "ubermagtable" %}
-{% set sha256 = "d05b0d84f5f4d824c48276aa8530fbeba4e528cd98715028586d6605f4e2a3ba" %}
+{% set sha256 = "5ae3d8ef3f0172cb659ea771e6eb43980450d7f9726f768997a4309387d86bb5" %}
 
 package:
   name: {{ name | lower }}
@@ -43,11 +43,12 @@ about:
   description: |
     `ubermagtable` is a Python package that provides:
 
-        - Conversion of scalar data files (OOMMF `.odt` and mumax3 `.txt`) to `pandas.DataFrames`
-        - Merging of multiple OOMMF `.odt` files into a single `pandas.DataFrame`
+    - Conversion of scalar data files (OOMMF `.odt` and mumax3 `.txt`) to `pandas.DataFrames`
+    - Merging of multiple OOMMF `.odt` files into a single `pandas.DataFrame`
 
     It is available on all major operating systems (Windows, MacOS, Linux) and requires Python 3.6 or higher.
 
 extra:
   recipe-maintainers:
     - marijanbeg
+    - fangohr
