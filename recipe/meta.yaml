@@ -1,6 +1,6 @@
 {% set name = "ubermagtable" %}
-{% set version = "0.1.7" %}
-{% set sha256 = "7a830ee74ed3e00f5e1e74da65a89beae22c0efab0bbb42b11a0958fcf8c1ead" %}
+{% set version = "0.1.8" %}
+{% set sha256 = "d29f86b994a26b6b69fd3e68c4abcec283f8414205aa2be789a090de3502c13d" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
@@ -36,7 +36,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Python package for manipulating tabular data.'
+  summary: Python package for manipulating tabular data.
   doc_url: http://ubermagtable.readthedocs.io
   dev_url: https://github.com/ubermag/ubermagtable
 
