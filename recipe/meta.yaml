@@ -1,6 +1,6 @@
 {% set name = "ubermagtable" %}
-{% set version = "0.1.8" %}
-{% set sha256 = "d29f86b994a26b6b69fd3e68c4abcec283f8414205aa2be789a090de3502c13d" %}
+{% set version = "0.1.9" %}
+{% set sha256 = "a03b3a73e7f102adbb2356f77d2bafbd88d7110aa868afbb532f05ab89f6c3a8" %}
 
 package:
   name: {{ name|lower }}
