@@ -21,9 +21,9 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - pandas
-    - numpy
-    - pytest
+    - pandas >=1.0
+    - numpy >=1.18
+    - pytest >=5.4
 
 test:
   imports:
@@ -36,7 +36,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: Python package for manipulating tabular data.
+  summary: Python package for manipulating OOMMF and mumax3 tabular data.
   doc_url: http://ubermagtable.readthedocs.io
   dev_url: https://github.com/ubermag/ubermagtable
 
