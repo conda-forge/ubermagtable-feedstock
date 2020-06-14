@@ -7,7 +7,7 @@ Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Python package for manipulating tabular data.
+Summary: Python package for manipulating OOMMF and mumax3 tabular data.
 
 
 
