@@ -21,9 +21,9 @@ requirements:
   run:
     - python >=3.8
     - ubermagutil ==0.2.7
-    - pandas
     - matplotlib-base >=3.3
     - jupyterlab ==2.2
+    - pandas
     - ipywidgets
 
 test:
