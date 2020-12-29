@@ -7,7 +7,7 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ubermagtable-feedstock/blob/master/LICENSE.txt)
 
-Summary: Python package for manipulating OOMMF and mumax3 tabular data.
+Summary: Python package for manipulating tabular data.
 
 Development: https://github.com/ubermag/ubermagtable
 
@@ -119,5 +119,6 @@ Feedstock Maintainers
 =====================
 
 * [@fangohr](https://github.com/fangohr/)
+* [@lang-m](https://github.com/lang-m/)
 * [@marijanbeg](https://github.com/marijanbeg/)
 
