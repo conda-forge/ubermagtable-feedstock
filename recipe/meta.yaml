@@ -1,5 +1,5 @@
 {% set name = "ubermagtable" %}
-{% set version = "0.2" %}
+{% set version = "0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c54786bc74a45661cf90c5e2dcfa1c9013f065b2d23a750a9c842424b39256b5
+  sha256: 3784d8086585f464e2678c32d79d584bfa4e897d634a478038f5fb25844b9b66
 
 build:
   noarch: python
