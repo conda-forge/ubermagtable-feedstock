@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -23,7 +23,7 @@ requirements:
     - ubermagutil ==0.3
     - matplotlib-base >=3.3
     - jupyterlab ==2.2
-    - pandas
+    - pandas >=1.2
     - ipywidgets
 
 test:
