@@ -1,5 +1,5 @@
 {% set name = "ubermagtable" %}
-{% set version = "0.6.1" %}
+{% set version = "0.60.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b8c6320607c7a56400b206ff35939bcd3195d875ca0ea53a4976e39e4b817d5c
+  sha256: 367b6b0d7611c5d661c06ce9ad658765b0dcd0edb306751593b8dfdc6a688870
 
 build:
   noarch: python
@@ -20,9 +20,9 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - ubermagutil ==0.4.1
+    - ubermagutil >=0.60.0,<0.61.0
     - matplotlib-base >=3.3
-    - jupyterlab ==2.2
+    - jupyterlab >=3.0,<4.0
     - pandas >=1.1
     - ipywidgets
 
@@ -38,7 +38,7 @@ about:
   license_family: BSD
   license_file: LICENSE
   summary: Python package for manipulating tabular data.
-  doc_url: http://ubermagtable.readthedocs.io
+  doc_url: https://ubermag.github.io/documentation/ubermagtable.html
   dev_url: https://github.com/ubermag/ubermagtable
 
 extra:
@@ -46,3 +46,4 @@ extra:
     - marijanbeg
     - fangohr
     - lang-m
+    - samjrholt
