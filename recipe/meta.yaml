@@ -20,9 +20,9 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - ubermagutil ==0.4.1
+    - ubermagutil >=0.60.0,<0.61.0
     - matplotlib-base >=3.3
-    - jupyterlab ==2.2
+    - jupyterlab >=3.0,<4.0
     - pandas >=1.1
     - ipywidgets
 
@@ -38,7 +38,7 @@ about:
   license_family: BSD
   license_file: LICENSE
   summary: Python package for manipulating tabular data.
-  doc_url: http://ubermagtable.readthedocs.io
+  doc_url: https://ubermag.github.io/documentation/ubermagtable.html
   dev_url: https://github.com/ubermag/ubermagtable
 
 extra:
@@ -46,3 +46,4 @@ extra:
     - marijanbeg
     - fangohr
     - lang-m
+    - samrjholt
