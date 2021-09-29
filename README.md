@@ -11,7 +11,7 @@ Summary: Python package for manipulating tabular data.
 
 Development: https://github.com/ubermag/ubermagtable
 
-Documentation: http://ubermagtable.readthedocs.io
+Documentation: https://ubermag.github.io/documentation/ubermagtable.html
 
 Current build status
 ====================
@@ -122,4 +122,5 @@ Feedstock Maintainers
 * [@fangohr](https://github.com/fangohr/)
 * [@lang-m](https://github.com/lang-m/)
 * [@marijanbeg](https://github.com/marijanbeg/)
+* [@samjrholt](https://github.com/samjrholt/)
 
