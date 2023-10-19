@@ -20,11 +20,10 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - ubermagutil >=0.62.0
+    - ubermagutil >=0.63.2
     - matplotlib-base >=3.3
-    - jupyterlab >=3.0,<4.0
     - pandas >=1.1
-    - ipywidgets
+    - ipywidgets >=7.5
 
 test:
   imports:
