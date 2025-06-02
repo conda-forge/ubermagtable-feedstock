@@ -1,5 +1,5 @@
 {% set name = "ubermagtable" %}
-{% set version = "0.61.4" %}
+{% set version = "0.62.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('_', '-') }}-{{ version }}.tar.gz
-  sha256: f939390259e44831c5a90f7420eadc4d922bd16b3e33f7ad3e474d5c22943058
+  sha256: 531c711b466f8bf7a1fda634c2f92a6ec19599e1680501662c2106caccaeea98
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - ubermagutil >=0.63.4
+    - ubermagutil >=0.64.0
     - matplotlib-base >=3.3
     - pandas >=1.1
     - ipywidgets >=7.5
