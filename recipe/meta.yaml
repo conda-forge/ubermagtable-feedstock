@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - ubermagutil >=0.63.4
+    - ubermagutil >=0.64.0
     - matplotlib-base >=3.3
     - pandas >=1.1
     - ipywidgets >=7.5
